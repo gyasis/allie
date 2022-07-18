@@ -566,7 +566,7 @@ class test_transcription(unittest.TestCase):
 
 	def setUp(self, prevdir=prevdir):
 		# change settings.json to test all model scripts
-		os.system('pip3 install opencv-python==3.4.2.16 opencv-contrib-python==3.4.2.16') 
+		os.system('pip3 install opencv-python==3.4.2.17 opencv-contrib-python==3.4.2.17') 
 		os.chdir(prevdir)
 		settings=json.load(open('settings.json'))
 		settings['transcribe_audio']=True
